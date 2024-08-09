@@ -1,4 +1,3 @@
-````markdown
 # Spring Boot Application Jenkins Pipeline
 
 This Jenkinsfile is designed to build, push, and deploy a Spring Boot application using Docker. Before using this Jenkinsfile in your project, please follow the instructions below to customize it based on your project and DockerHub configuration.
@@ -15,7 +14,7 @@ This Jenkinsfile is designed to build, push, and deploy a Spring Boot applicatio
        checkout scm
    }
    ```
-````
+
 
 2. **Build Image:**
 
